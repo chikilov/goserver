@@ -1,7 +1,7 @@
 package main
 
 import (
-	"common"
+	"goserver/common"
 	"encoding/json"
 	"fmt"
 	"io"
