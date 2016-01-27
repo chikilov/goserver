@@ -72,10 +72,6 @@ func handleRequest(newCon netCon) {
 		}
 		if newCon.isHandShakeing {
 			fmt.Printf("Message Received: %s\n", msg)
-			fmt.Printf("%t\n", newCon.isHandShakeing)
-			for i := range netCons {
-				fmt.Printf("%s : %t\n", netCons[i].username, netCons[i].isHandShakeing)
-			}
 			broadcast(newCon, msg)
 		} else {
 			var y map[string]interface{}
