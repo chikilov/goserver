@@ -2,7 +2,7 @@ package main
 
 import (
 	"bufio"
-	"common"
+	"goserver/common"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	CONN_HOST = "localhost"
+	CONN_HOST = "ec2-52-192-16-215.ap-northeast-1.compute.amazonaws.com"
 	CONN_PORT = "3333"
 	CONN_TYPE = "tcp"
 )
